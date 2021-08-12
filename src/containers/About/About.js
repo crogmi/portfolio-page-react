@@ -6,9 +6,6 @@ const About = () => {
             <div className="container">
                 <div className="columns is-centered">
                     <div className="column is-three-fifths">
-                        <div className="about-placeholder">
-                            Insert image here
-                        </div>
                         <div className="about-conatiner" id="about-desc">
                             <h1 className="title">About</h1>
                             <p className="information">
