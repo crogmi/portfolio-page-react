@@ -18,7 +18,9 @@ const App = ({ match }) => {
             <Navbar />
           </header>
           <main>
-            <Home />
+            <Switch>
+              <Route exact path={ROUTES.HOME} component={Home} />
+            </Switch>
             <About />
             <Projects />
             <Contact />
