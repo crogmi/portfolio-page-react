@@ -71,10 +71,8 @@ html {
   width: auto;
 }
 
-@media screen and (min-width: 769px), print {
-  .columns:not(.is-desktop) {
-    display: flex;
-  }
+.columns {
+  display: flex;
 }
 
 .is-centered {
@@ -84,7 +82,13 @@ html {
 }
 
 .is-three-fifths {
-  width: 60%;
+  width: 80%;
+}
+
+@media screen and (min-width: 769px), print {
+  .is-three-fifths {
+    width: 60%;
+  }
 }
 
 .is-four-fifths {
