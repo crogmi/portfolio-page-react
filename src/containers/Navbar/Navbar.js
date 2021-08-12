@@ -5,19 +5,19 @@ import "./Navbar.css";
 
 const Navbar = () => {
     return (
-        <nav>
+        <nav className="navbar">
             <ul className="nav-list">
-                <li className="nav-link">
-                    <NavHashLink smooth to={ROUTES.HOME}>Home</NavHashLink>
+                <li className="nav-list-item">
+                    <NavHashLink className="nav-link" smooth to={ROUTES.HOME}>Home</NavHashLink>
                 </li>
-                <li className="nav-link">
-                    <NavHashLink smooth to={ROUTES.ABOUT}>About</NavHashLink>
+                <li className="nav-list-item">
+                    <NavHashLink className="nav-link" smooth to={ROUTES.ABOUT}>About</NavHashLink>
                 </li>
-                <li className="nav-link">
-                    <NavHashLink smooth to={ROUTES.PORTFOLIO}>Portfolio</NavHashLink>
+                <li className="nav-list-item">
+                    <NavHashLink className="nav-link" smooth to={ROUTES.PORTFOLIO}>Portfolio</NavHashLink>
                 </li>
-                <li className="nav-link">
-                    <NavHashLink smooth to={ROUTES.CONTACT}>Get in Touch</NavHashLink>
+                <li className="nav-list-item">
+                    <NavHashLink className="nav-link" smooth to={ROUTES.CONTACT}>Get in Touch</NavHashLink>
                 </li>
             </ul>
         </nav>

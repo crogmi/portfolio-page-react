@@ -1,3 +1,24 @@
-nav {
-    
+.navbar {
+    background-color: navy;
+    height: 3vh;
+    width: 100%;
+}
+
+.nav-list {
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.nav-list-item {
+    margin: 0 2rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
 }
