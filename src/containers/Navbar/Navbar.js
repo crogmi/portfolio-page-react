@@ -28,9 +28,9 @@ const Navbar = () => {
                 </li>
             </ul>
             <div className="nav-hamburger" onClick={toggleNav}>
-                <div className="line" />
-                <div className="line" />
-                <div className="line" />
+                <div className="line-1" />
+                <div className="line-2" />
+                <div className="line-3" />
             </div>
         </nav>
     );
