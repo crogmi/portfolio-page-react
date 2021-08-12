@@ -1,13 +1,13 @@
 import React from "react";
 
-const Projects = () => {
+const Portfolio = () => {
     return (
         <section className="main-info"
                  id="projects" >
-            <h1 className="section-title">Projects</h1>
+            <h1 className="section-title">Portfolio</h1>
         </section>
     );
 };
 
-export default Projects;
+export default Portfolio;
 

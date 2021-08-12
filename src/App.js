@@ -6,8 +6,9 @@ import './App.css';
 import Navbar from "./containers/Navbar/Navbar";
 import Home from "./containers/Home/Home";
 import About from "./containers/About/About";
-import Projects from "./containers/Projects/Projects";
+import Portfolio from "./containers/Portfolio/Portfolio";
 import Contact from "./containers/Contact/Contact";
+import Footer from "./containers/Footer/Footer";
 
 const App = ({ match }) => {
   return (
@@ -20,12 +21,13 @@ const App = ({ match }) => {
           <main>
             <Switch>
               <Route exact path={ROUTES.HOME} component={Home} />
+              <Route path={ROUTES.ABOUT} component={About} />
+              <Route path={ROUTES.PORTFOLIO} component={Portfolio} />
+              <Route path={ROUTES.CONTACT} component={Contact} />
             </Switch>
-            <About />
-            <Projects />
-            <Contact />
           </main>
           <footer>
+            <Footer />
           </footer>
         </body>
       </div>
