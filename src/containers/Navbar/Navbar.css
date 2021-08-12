@@ -1,12 +1,18 @@
 /* ***************** Navbar styling on tablet and desktop devices ***************** */
 .navbar {
     background-color: navy;
-    height: 4vh;
+    height: 5vh;
     width: 100%;
     z-index: 100;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+@media screen and (max-width: 320px) {
+    .navbar {
+        height: 8vh;
+    }
 }
 
 .nav-list {
@@ -61,6 +67,8 @@
     }
 }
 
+/* ***************** Hamburger and line formatting ***************** */
+
 .nav-hamburger {
     display: block;
     margin-right: 2%;
@@ -74,14 +82,13 @@
     width: 30px;
     height: 3px;
     background-color: white;
-    margin: 8px 0;
+    margin: 5px 0;
 }
 
 .line-2 {
     width: 25px;
     height: 3px;
     background-color: white;
-    margin: 8px 0;
     margin-left: auto;
     margin-right: 0;
 }
@@ -90,7 +97,7 @@
     width: 20px;
     height: 3px;
     background-color: white;
-    margin: 8px 0;
+    margin: 5px 0;
     margin-left: auto;
     margin-right: 0;
 }

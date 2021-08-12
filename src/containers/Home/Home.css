@@ -16,11 +16,18 @@
 }
 
 .banner-info {
-    justify-self: flex-start;
+    margin-bottom: 3rem;
 }
 
 .banner-link {
-    justify-self: flex-end;
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+    padding-top: 3rem;
+}
+
+.banner-link:hover {
+    text-decoration: underline;
 }
 
 

@@ -1,26 +1,38 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
     return (
         <div className="footer">
             <div className="container">
                 <div className="columns is-centered">
-                    <a href="https://github.com/crogmi"
-                       className="footer-link"
-                       target="_blank">
-                           <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/chris-ogami-cpa-bb192ba9/"
-                       className="footer-link"
-                       target="_blank">
-                            <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="mailto:chrisogami16@gmail.com"
-                       className="footer-link"
-                       target="_blank">
-                           <i class="far fa-envelope"></i>
-                    </a>
-                    <p id="copyright">&copy; Christopher Ogami 2021</p>
+                    <div className="column 
+                                    is-two-fifths
+                                    text-centered">
+                        <div className="social-links">
+                            <a href="https://github.com/crogmi"
+                               className="footer-link"
+                               target="_blank"
+                               rel="noreferrer">
+                                   <i className="fab fa-github social-icon"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/chris-ogami-cpa-bb192ba9/"
+                               className="footer-link"
+                               target="_blank"
+                               rel="noreferrer">
+                                    <i className="fab fa-linkedin-in social-icon"></i>
+                            </a>
+                            <a href="mailto:chrisogami16@gmail.com"
+                               className="footer-link"
+                               target="_blank"
+                               rel="noreferrer">
+                                   <i className="far fa-envelope social-icon"></i>
+                            </a>
+                        </div>
+                        <p className="information" id="copyright">
+                            &copy; Christopher Ogami 2021
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
