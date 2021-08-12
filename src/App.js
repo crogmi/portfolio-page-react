@@ -21,10 +21,10 @@ const App = ({ match }) => {
           <main>
             <Switch>
               <Route exact path={ROUTES.HOME} component={Home} />
-              <Route path={ROUTES.ABOUT} component={About} />
-              <Route path={ROUTES.PORTFOLIO} component={Portfolio} />
-              <Route path={ROUTES.CONTACT} component={Contact} />
             </Switch>
+            <About />
+            <Portfolio />
+            <Contact />
           </main>
           <footer>
             <Footer />

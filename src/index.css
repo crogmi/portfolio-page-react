@@ -32,6 +32,87 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-.main-info {
-  height: 100vh;
+html {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+/* ********************** Container and columns ********************** */
+
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1216px) {
+  .container {
+    max-width: 152px;
+  }
+}
+
+@media screen and (min-width: 1408px) {
+  .container {
+    max-width: 1344px;
+  }
+}
+
+.container {
+  --webkit-box-flex: 1;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+@media screen and (min-width: 769px), print {
+  .columns:not(.is-desktop) {
+    display: flex;
+  }
+}
+
+.is-centered {
+  --webkit-box-pack: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.is-three-fifths {
+  width: 60%;
+}
+
+.is-four-fifths {
+  width: 80%;
+}
+
+/* ********************** Font sizes ********************** */
+@media screen and (min-width: 769px), print {
+  .title-size-2-tablet {
+    font-size: 3rem !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .title-size-1-desktop {
+    font-size: 5rem !important;
+  }
+}
+
+/* ********************** Font paddding and margins ********************** */
+.title {
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  margin-bottom: 0.5rem;
+}
+
+.last-child {
+  margin-bottom: 2rem;
 }

@@ -3,20 +3,24 @@ import React from "react";
 const About = () => {
     return (
         <section className="main-info" id="about">
-            <div className="resume-container">
-                <h2>Resume</h2>
-                <h3>Languages I Speak</h3>
-                <h4>HTML, CSS, JavaScript</h4>
-                <h3>Work and Education</h3>
-                <h4>KPMG, LLP (January 2019 to Present)</h4>
-                <h5>Senior Associate, Financial Due Diligence</h5>
-                <h4>Ernst and Young, LLP (August 2016 to January 2019)</h4>
-                <h5>Senior Associate, Audit</h5>
-                <h4>Pepperdine University (Graduated 2016)</h4>
-                <h5>B.S. Accounting</h5>
-                <h3>Courses and Certifications</h3>
-                <h4>Codecademy's Full Stack Web Development Course (2021)</h4>
-                <h4>Certified Public Accountant (2017 to Present)</h4>
+            <div className="container">
+                <div className="columns is-centered">
+                    <div className="column is-three-fifths">
+                        <div className="about-placeholder">
+                            Insert image here
+                        </div>
+                        <div className="about-conatiner" id="about-desc">
+                            <h1 className="title">About</h1>
+                            <p className="information">
+                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+                            </p>
+                        </div>
+                        <button type="button">
+                            {/* Need to add functionality to download resume */}
+                            Download Resume
+                        </button>
+                    </div>
+                </div>
             </div>
         </section>
     );

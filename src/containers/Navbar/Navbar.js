@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 import ROUTES from "../../routes";
 import "./Navbar.css";
 
@@ -8,16 +8,16 @@ const Navbar = () => {
         <nav>
             <ul className="nav-list">
                 <li className="nav-link">
-                    <Link to={ROUTES.HOME}>Home</Link>
+                    <NavHashLink smooth to={ROUTES.HOME}>Home</NavHashLink>
                 </li>
                 <li className="nav-link">
-                    <Link to={ROUTES.ABOUT}>About</Link>
+                    <NavHashLink smooth to={ROUTES.ABOUT}>About</NavHashLink>
                 </li>
                 <li className="nav-link">
-                    <Link to={ROUTES.PORTFOLIO}>Portfolio</Link>
+                    <NavHashLink smooth to={ROUTES.PORTFOLIO}>Portfolio</NavHashLink>
                 </li>
                 <li className="nav-link">
-                    <Link to={ROUTES.CONTACT}>Get in Touch</Link>
+                    <NavHashLink smooth to={ROUTES.CONTACT}>Get in Touch</NavHashLink>
                 </li>
             </ul>
         </nav>
