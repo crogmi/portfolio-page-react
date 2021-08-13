@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import ContactForm from "../../components/ContactForm/ContactForm";
 
 const Contact = () => {
     return (
@@ -24,6 +25,7 @@ const Contact = () => {
                         <button className="button" type="button">
                             Start a Conversation
                         </button>
+                        <ContactForm />
                     </div>
                 </div>
             </div>
