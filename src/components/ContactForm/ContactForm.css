@@ -101,6 +101,9 @@
 
 .form-input {
     width: 200px;
+    padding: 0.25rem 0.5rem;
+    border-radius: 7px;
+    border: 1px var(--light-gray) solid;
 }
 
 @media screen and (min-width: 768px) {
@@ -124,6 +127,9 @@
 #inquiry {
     height: 250px;
     width: 300px;
+    border-radius: 7px;
+    border: 1px var(--light-gray) solid;
+    padding: 0.25rem 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
