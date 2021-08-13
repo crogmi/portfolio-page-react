@@ -1,4 +1,20 @@
+#portfolio .columns {
+    background-color: white;
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 1024px) {
+    #portfolio .columns {
+        border: 1px var(--light-gray) solid;
+        background-color: white;
+        border-radius: 10px;
+        padding-bottom: 5rem;
+        box-shadow: 0px 5px 5px -5px var(--light-gray);
+    }
+}
+
 .portfolio-list {
+    display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
@@ -36,7 +52,7 @@
 
 @media screen and (min-width: 1024px) {
     .portfolio-card {
-        height: 200px;
+        height: 400px;
         width: 350px;
         color: white;
         border-radius: 10px;
@@ -59,7 +75,7 @@
     transition: all 0.5s ease-out;
     background-color: rgba(0, 0, 0, 0.6);
     color: white;
-
+    padding: 0 2rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -70,6 +86,10 @@
 
 .card-title {
     font-size: 1.25rem;
+}
+
+#portfolio .information {
+    margin-bottom: 0;
 }
 
 .portfolio-card:hover .card-overlay{

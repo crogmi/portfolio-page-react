@@ -5,3 +5,13 @@
     align-items: center;
     margin-bottom: 1rem;
 }
+
+.footer {
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+.footer .container {
+    padding-top: 2rem;
+    margin-bottom: 0;
+}

@@ -1,6 +1,6 @@
 /* ***************** Navbar styling on tablet and desktop devices ***************** */
 .navbar {
-    background-color: navy;
+    background-color: var(--dark-blue);
     height: 5vh;
     width: 100%;
     z-index: 100;
@@ -32,7 +32,6 @@
 .nav-link {
     font-size: 1rem;
     text-decoration: none;
-    color: white;
 }
 
 /* ***************** Navbar styling on small mobile ***************** */
@@ -48,7 +47,7 @@
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
-        background-color: black;
+        background-color: var(--blue);
         clip-path: inset(100% 0 0 0);
         --webkit-clip-path: inset(100% 0 0 0);
         transition: all 0.75s ease;

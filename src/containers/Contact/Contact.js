@@ -21,7 +21,7 @@ const Contact = () => {
                         <h3 className="information">
                             Any reason, I'm here to talk.
                         </h3>
-                        <button className="contact-button" type="button">
+                        <button className="button" type="button">
                             Start a Conversation
                         </button>
                     </div>

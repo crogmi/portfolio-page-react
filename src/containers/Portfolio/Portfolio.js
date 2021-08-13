@@ -11,12 +11,12 @@ const Portfolio = () => {
                                     text-centered
                                     portfolio-column">
                         <h1 className="title">Portfolio</h1>
-                        <div className="columns portfolio-list">
+                        <div className="portfolio-list">
                             <div className="portfolio-card" id="reddit-card">
                                 <a href="https://modest-hermann-fab8b5.netlify.app/"
                                    target="_blank"
                                    rel="noreferrer"
-                                   className="external-link">
+                                   className="link">
                                     <div className="card-overlay">
                                         <h2 className="subtitle card-title">Reddit Client</h2>
                                         <p className="information card-info">Another view of the Reddit interface recreated using the Reddit API</p>
@@ -28,7 +28,7 @@ const Portfolio = () => {
                                 <a href="https://github.com/crogmi/online-ordering-restaurant"
                                    target="_blank"
                                    rel="noreferrer"
-                                   className="external-link">
+                                   className="link">
                                     <div className="card-overlay">
                                         <h2 className="subtitle card-title">Online Ordering</h2>
                                         <p className="information card-info">An online ordering platform for a fictional coffee shop.</p>
@@ -40,7 +40,7 @@ const Portfolio = () => {
                                 <a href="https://github.com/crogmi/appointment-planner"
                                    target="_blank"
                                    rel="noreferrer"
-                                   className="external-link">
+                                   className="link">
                                     <div className="card-overlay">
                                         <h2 className="subtitle card-title">Appointment Planner</h2>
                                         <p className="information card-info">An application to allow you to maintain contacts and manage appointments.</p>

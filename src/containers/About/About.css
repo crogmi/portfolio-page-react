@@ -1,5 +1,23 @@
-.about-button {
-    border-radius: 30px;
-    background-color: transparent;
-    padding: 0.75rem 2rem;
+#about {
+    background-color: var(--blue);
+    color: var(--white);
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    margin-bottom: -10rem;
 }
+
+#resume-button {
+    border-radius: 30px;
+    border: 1px var(--white) solid;
+    background-color: transparent;
+    color: var(--white);
+    padding: 0.75rem 2rem;
+    transition: 0.3s ease-in;
+}
+
+#resume-button:hover {
+    transition: 0.3s ease-in;
+    border: 1px var(--dark-blue) solid;
+    background-color: var(--dark-blue);
+    cursor: pointer;
+  }

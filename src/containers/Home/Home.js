@@ -25,7 +25,10 @@ const Home = () => {
                         </div>
                         <HashLink className="banner-link"
                                   smooth to ={ROUTES.PORTFOLIO}>
-                            View Collection
+                            <div className="button-box">
+                                    View Collection
+                                <div className="button-border" />
+                            </div>
                         </HashLink>
                     </div>
                 </div>

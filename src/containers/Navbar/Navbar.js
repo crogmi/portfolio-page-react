@@ -15,16 +15,24 @@ const Navbar = () => {
         <nav className="navbar">
             <ul className={`nav-list ${open ? "open" : ""}`}>
                 <li className="nav-list-item" onClick={toggleNav}>
-                    <NavHashLink className="nav-link" smooth to={ROUTES.HOME}>Home</NavHashLink>
+                    <NavHashLink className="nav-link link" smooth to={ROUTES.HOME}>
+                        Home
+                    </NavHashLink>
                 </li>
                 <li className="nav-list-item" onClick={toggleNav}>
-                    <NavHashLink className="nav-link" smooth to={ROUTES.ABOUT}>About</NavHashLink>
+                    <NavHashLink className="nav-link link" smooth to={ROUTES.ABOUT}>
+                        About
+                    </NavHashLink>
                 </li>
                 <li className="nav-list-item" onClick={toggleNav}>
-                    <NavHashLink className="nav-link" smooth to={ROUTES.PORTFOLIO}>Portfolio</NavHashLink>
+                    <NavHashLink className="nav-link link" smooth to={ROUTES.PORTFOLIO}>
+                        Portfolio
+                    </NavHashLink>
                 </li>
                 <li className="nav-list-item" onClick={toggleNav}>
-                    <NavHashLink className="nav-link" smooth to={ROUTES.CONTACT}>Get in Touch</NavHashLink>
+                    <NavHashLink className="nav-link link" smooth to={ROUTES.CONTACT}>
+                        Get in Touch
+                    </NavHashLink>
                 </li>
             </ul>
             <div className="nav-hamburger" onClick={toggleNav}>
