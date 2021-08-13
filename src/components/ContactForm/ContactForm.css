@@ -1,3 +1,5 @@
+/* *************** Contact form open and close *************** */
+
 .form {
     position: fixed;
     top: 0;
@@ -21,6 +23,8 @@
     pointer-events: all;
     z-index: 50;
 }
+
+/* *************** Exit button styling *************** */
 
 .exit {
     cursor: pointer;
