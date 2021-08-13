@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../img/resume.pdf";
 import "./About.css";
 
 const About = () => {
@@ -6,7 +7,8 @@ const About = () => {
         <section className="main-info" id="about">
             <div className="container">
                 <div className="columns is-centered">
-                    <div className="column 
+                    <div className="column
+                                    is-centered
                                     is-four-fifths
                                     text-centered">
                         <h1 className="title">About</h1>
@@ -17,10 +19,20 @@ const About = () => {
                             <span className="break"></span>
                             I hope to build on my knowledge of programming every day, one piece of code at a time.
                         </p>
-                        <button className="button" id="resume-button" type="button">
-                            {/* Need to add functionality to download resume */}
-                            Download Resume
-                        </button>
+                        <h2 className="subtitle">
+                            Languages I Speak
+                        </h2>
+                        <div className="language-container">
+                            <i className="fab fa-js-square language-icon"></i>
+                            <i className="fab fa-react language-icon"></i>
+                            <i className="fab fa-html5 language-icon"></i>
+                            <i className="fab fa-css3-alt language-icon"></i>
+                        </div>
+                        <a href={resume} download>
+                            <button className="button" id="resume-button" type="button">
+                                Download Resume
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>

@@ -148,7 +148,7 @@ input, textarea, select {
 }
 
 .subtitle {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
@@ -167,6 +167,11 @@ input, textarea, select {
 
 .social-icon {
   font-size: 2rem;
+  color: var(--white);
+}
+
+.language-icon {
+  font-size: 3rem;
   color: var(--white);
 }
 
