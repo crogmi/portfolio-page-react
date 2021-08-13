@@ -1,0 +1,46 @@
+.form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--light-blue);
+    clip-path: inset(0 100% 0 0);
+    --webkit-clip-path: inset(0 100% 0 0);
+    transition: all 0.75s ease;
+    pointer-events: none;
+}
+
+.form.open {
+    clip-path: inset(0 0 0 0);
+    --webkit-clip-path: inset(0 0 0 0);
+    pointer-events: all;
+    z-index: 50;
+}
+
+.exit {
+    cursor: pointer;
+    position: absolute;
+    top: 8%;
+    right: 7%;
+}
+
+.exit-line-1 {
+    height: 50px;
+    width: 5px;
+    background-color: var(--dark-blue);
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.exit-line-2 {
+    height: 50px;
+    width: 5px;
+    background-color: var(--dark-blue);
+    transform: rotate(135deg);
+    position: absolute;
+}

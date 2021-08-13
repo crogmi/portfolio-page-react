@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Contact.css";
 import ContactForm from "../../components/ContactForm/ContactForm";
 
 const Contact = () => {
+    const [open, setOpen] = useState(false);
+
+    const onClick = (event) => {
+        event.preventDefault();
+        setOpen(!open);
+    }
+    
     return (
         <section className="main-info" id="contact" >
             <div className="container">
@@ -22,10 +29,13 @@ const Contact = () => {
                         <h3 className="information">
                             Any reason, I'm here to talk.
                         </h3>
-                        <button className="button" type="button">
+                        <button className="button" 
+                                type="button"
+                                onClick={onClick}>
                             Start a Conversation
                         </button>
-                        <ContactForm />
+                        <ContactForm open={open}
+                                     onClick={onClick} />
                     </div>
                 </div>
             </div>
