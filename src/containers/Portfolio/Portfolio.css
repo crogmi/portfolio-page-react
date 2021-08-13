@@ -6,7 +6,7 @@
 @media screen and (min-width: 1024px) {
     #portfolio .columns {
         border: 1px var(--light-gray) solid;
-        background-color: white;
+        background-color: var(--white);
         border-radius: 10px;
         padding-bottom: 5rem;
         box-shadow: 0px 5px 5px -5px var(--light-gray);

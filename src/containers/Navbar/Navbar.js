@@ -15,11 +15,6 @@ const Navbar = () => {
         <nav className="navbar">
             <ul className={`nav-list ${open ? "open" : ""}`}>
                 <li className="nav-list-item" onClick={toggleNav}>
-                    <NavHashLink className="nav-link link" smooth to={ROUTES.HOME}>
-                        Home
-                    </NavHashLink>
-                </li>
-                <li className="nav-list-item" onClick={toggleNav}>
                     <NavHashLink className="nav-link link" smooth to={ROUTES.ABOUT}>
                         About
                     </NavHashLink>
