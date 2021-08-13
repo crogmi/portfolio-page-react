@@ -11,7 +11,9 @@ const ContactForm = (props) => {
                     <div className="exit-line-1" />
                     <div className="exit-line-2" />
                 </div>
-                <form className="form-container">
+                <form className="form-container"
+                      action="https://getform.io/f/b11b3900-f857-423e-9dc8-8e2754a50ef3"
+                      method="POST" >
                     <div className='form-item'>
                         <label for="first-name"
                                className="form-label">
@@ -70,10 +72,11 @@ const ContactForm = (props) => {
                                     name="inquiry"
                                     placeholder="Type your message here" required/>
                     </div>
-                    <input type="submit"
-                            value="Submit"
-                            className="button form-button"
-                            onClick={onClick} />
+                    <button type="submit"
+                            value="submit"
+                            className="button form-button">
+                        Submit
+                    </button>
                 </form>
             </div>
         </div>
