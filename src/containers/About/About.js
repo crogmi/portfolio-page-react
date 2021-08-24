@@ -1,5 +1,4 @@
 import React from "react";
-import resume from "../../img/resume.pdf";
 import "./About.css";
 
 const About = () => {
@@ -28,11 +27,6 @@ const About = () => {
                             <i className="fab fa-html5 language-icon"></i>
                             <i className="fab fa-css3-alt language-icon"></i>
                         </div>
-                        <a href={resume} download>
-                            <button className="button" id="resume-button" type="button">
-                                Download Resume
-                            </button>
-                        </a>
                     </div>
                 </div>
             </div>
